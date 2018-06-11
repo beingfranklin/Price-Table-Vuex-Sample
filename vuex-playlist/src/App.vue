@@ -6,7 +6,14 @@
 </template>
 
 <script>
+import ProductOne from "./components/ProductOne.vue";
+import ProductTwo from "./components/ProductTwo.vue";
 export default {
+  components: {
+    "product-one": ProductOne,
+    "product-two": ProductTwo
+  },
+
   data() {
     return {
       products: [
