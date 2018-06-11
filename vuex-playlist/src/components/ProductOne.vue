@@ -20,17 +20,17 @@ export default {
 </script>
 
 <style scoped>
-#product-list-two {
-  background: #d1e4ff;
+#product-one {
+  background: #fff8b1;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
   padding: 10px 20px;
 }
-#product-list-two ul {
+#product-one ul {
   padding: 0;
-  list-style-type: none;
 }
-#product-list-two li {
+#product-one li {
+  display: inline-block;
   margin-right: 10px;
   margin-top: 10px;
   padding: 20px;
@@ -38,7 +38,6 @@ export default {
 }
 .price {
   font-weight: bold;
-  color: #860ce8;
-  display: block;
+  color: #e8800c;
 }
 </style>
