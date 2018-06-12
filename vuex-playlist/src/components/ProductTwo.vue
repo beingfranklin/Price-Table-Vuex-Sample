@@ -15,6 +15,10 @@ export default {
   computed: {
     products() {
       return this.$store.state.products;
+    },
+    //Name needed to access the getter
+    saleProducts() {
+      return this.$store.getters.saleProducts;
     }
   }
 };

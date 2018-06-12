@@ -23,7 +23,10 @@ export default {
     products() {
       return this.$store.state.products;
     },
-    saleProducts() {}
+    //Name needed to access the getter
+    saleProducts() {
+      return this.$store.getters.saleProducts;
+    }
   }
 };
 </script>
