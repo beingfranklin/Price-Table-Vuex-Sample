@@ -28,5 +28,10 @@ export const store = new Vuex.Store({
         product.price -= 1;
       });
     }
+  },
+  actions:{
+    setTimeout(function(){
+      context.commit('reducePrice')
+    }, 1000);
   }
 });
